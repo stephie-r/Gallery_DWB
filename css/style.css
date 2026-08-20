@@ -69,5 +69,8 @@ main{
 
 .slide{
     border-radius: 3rem;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
 
