@@ -6,5 +6,53 @@
     --sec--color: #;
     --third-color: #;
     font-size: 16px;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
+
+body{
+    background-color: #ebf1c0bc;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+nav{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+}
+
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.gallery, .slider, .slide{
+    max-width: 500px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.slide{
+    border-radius: 3rem;
+}
+
